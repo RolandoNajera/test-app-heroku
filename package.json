@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "project to test fron in heroku",
   "main": "index.js",
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=14.0.0"
+  },
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build"
