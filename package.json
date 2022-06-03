@@ -1,0 +1,29 @@
+{
+  "name": "test-app-heroku",
+  "version": "1.0.0",
+  "description": "project to test fron in heroku",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RolandoNajera/test-app-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RolandoNajera/test-app-heroku/issues"
+  },
+  "homepage": "https://github.com/RolandoNajera/test-app-heroku#readme",
+  "dependencies": {
+    "parcel": "^2.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
